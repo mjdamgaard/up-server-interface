@@ -1,8 +1,15 @@
 
-# Security-related config files
-/src/db_config.js
+# Config files and system-dependent files used for installation
+/src/server/db_io/config.js
+/sql/install.sql
+
+# Ignore all dot-files in the UP directories
 /up_directories/**/.*
 
+# Ignore directories_local.json and untracked_directories.json.
+/up_directories/directories_local.json
+/up_directories/untracked_directories.json
+/up_directories/untracked_directories_local.json
 
 
 # dependencies
